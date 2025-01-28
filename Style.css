@@ -1,0 +1,117 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5); ;
+    background-image: url('fondo2.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: rgb(240, 230, 230);
+    font-family: sans-serif;
+
+    
+
+}
+
+
+
+input{
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: 400px; /* Máximo ancho para evitar que sea demasiado grande */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px auto; /* Espaciado hacia los lados y centrado vertical */
+    display: block; /* Asegura que esté en su propia línea */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    background-color: #f9f9f9; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(71, 48, 48, 0.1); /* Sombra ligera */
+    transition: border-color 0.4s ease, box-shadow 0.4s ease; /* Animaciones */
+
+}
+
+input:focus {
+    border-color: #305f91; /* Cambia el borde al azul al enfocarse */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Sombra más intensa */
+    outline: none; /* Elimina el borde predeterminado del navegador */
+}
+
+button{
+
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e4dad7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+
+button:hover{
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+button:active{
+    background-color: #003d82; 
+    transform: translateY(2px); 
+    box-shadow: 0px 2px 4px rgba(196, 189, 189, 0.1); 
+}
+
+button.primary {
+    background-color: #79817b;
+}
+
+button.primary:hover {
+    background-color: #79817b; 
+}
+
+button.secondary {
+    background-color: #79817b; 
+    background-color: #798179;
+  
+
+}
+
+button.secondary:hover {
+    background-color: #79817b; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    color: #aebeb2;
+    font-family: sans-serif;
+   
+}
+
+
+
